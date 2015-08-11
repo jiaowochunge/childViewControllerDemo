@@ -13,6 +13,7 @@
 		FFE2D9071B79D3EE004726A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFE2D9061B79D3EE004726A3 /* Images.xcassets */; };
 		FFE2D90A1B79D3EE004726A3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFE2D9081B79D3EE004726A3 /* LaunchScreen.xib */; };
 		FFE2D9161B79D3EE004726A3 /* ChildViewControllerDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE2D9151B79D3EE004726A3 /* ChildViewControllerDemoTests.swift */; };
+		FFE2D9201B79D4A3004726A3 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE2D91F1B79D4A3004726A3 /* TabViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		FFE2D90F1B79D3EE004726A3 /* ChildViewControllerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChildViewControllerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFE2D9141B79D3EE004726A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FFE2D9151B79D3EE004726A3 /* ChildViewControllerDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildViewControllerDemoTests.swift; sourceTree = "<group>"; };
+		FFE2D91F1B79D4A3004726A3 /* TabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				FFE2D8FF1B79D3EE004726A3 /* AppDelegate.swift */,
 				FFE2D9011B79D3EE004726A3 /* ViewController.swift */,
+				FFE2D91F1B79D4A3004726A3 /* TabViewController.swift */,
 				FFE2D9031B79D3EE004726A3 /* Main.storyboard */,
 				FFE2D9061B79D3EE004726A3 /* Images.xcassets */,
 				FFE2D9081B79D3EE004726A3 /* LaunchScreen.xib */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFE2D9201B79D4A3004726A3 /* TabViewController.swift in Sources */,
 				FFE2D9021B79D3EE004726A3 /* ViewController.swift in Sources */,
 				FFE2D9001B79D3EE004726A3 /* AppDelegate.swift in Sources */,
 			);
